@@ -127,10 +127,13 @@ class Widget_Text extends StatelessWidget {
   final String? text;
   @override
   Widget build(BuildContext context) {
-    return Text(text ?? 'basil',
-      style: TextStyle(
-        color: textColor,
-        fontSize: 20,
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: Text(text ?? 'basil',
+        style: TextStyle(
+          color: textColor,
+          fontSize: 20,
+        ),
       ),
     );
   }
