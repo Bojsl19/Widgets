@@ -31,7 +31,7 @@ class Container_image_of_loginpage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: MediaQuery.of(context).size.width,
-      color: Colors.purpleAccent,
+      color: pColorloginpage,
       height: MediaQuery.of(context).size.height * 0.30,
       child: Center(
         child: Column(

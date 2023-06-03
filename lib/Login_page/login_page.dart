@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import '../Strings/Strings.dart';
 import '../Widgets.dart';
 
 class LoginPage extends StatelessWidget {
@@ -13,10 +14,10 @@ class LoginPage extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.purpleAccent,
+        backgroundColor: pColorloginpage,
         appBar: AppBar(
           centerTitle: true,
-          backgroundColor: Colors.purple,
+          backgroundColor: pColorloginpage,
           title: Text(
             'Ultra App',
           ),
